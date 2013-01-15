@@ -1,0 +1,733 @@
+<DOCUMENT>`
+`<BEHAVIOR TYPE="LOCK">
+<FONT COLOR="#0033FF" SIZE="25">								INTRODUCING ARCHY</FONT>
+
+<FONT COLOR="#006699" SIZE="20">ARCHY TUTORIALS</FONT>
+
+The tutorials listed below provide an easy introduction to Archy. Each one takes around four minutes, then it's your turn to try out what you've learned.
+
+To start up <FONT COLOR="#CC6633">EX1</FONT>, make sure your sound is on, then hold down [capslock], and while you hold it down, type <FONT COLOR="#CC6633">EX1</FONT> (be sure to use the numeral "1", not the letter "L"), then let go of [capslock]. Run <FONT COLOR="#CC6633">EX2</FONT> through <FONT COLOR="#CC6633">EX6</FONT> the same way. Repeat the tutorials as often as you like.
+
+When the tutorial begins to run, typing any key will stop the tutorial and return you to where you were.
+
+<FONT COLOR="#CC6633">EX1</FONT> - "Typing and Getting Back" (3:44)
+<FONT COLOR="#CC6633">EX2</FONT> - "Leaping" (4:52)
+<FONT COLOR="#CC6633">EX3</FONT> - "Leap Again" (3:24)
+<FONT COLOR="#CC6633">EX4</FONT> - "Leaping for Information" (3:04)
+<FONT COLOR="#CC6633">EX5</FONT> - "Selection" (4:40)
+<FONT COLOR="#CC6633">EX6</FONT> - "Commands" (5:00)
+
+More tutorials to come later.
+
+~
+
+<FONT COLOR="#006699" SIZE="20">HOW TO FIND THIS PAGE</FONT>
+
+If you need to get back to this page at any time, hold down the LEFT [alt] key and tap repeatedly on the [tilde] key. Let go when you arrive. You can scroll up and down through this introduction with the [up] and [down] keys.
+
+~
+
+<FONT COLOR="#006699" SIZE="20">HOW ARCHY WORKS</FONT>
+
+<B>TYPING</B>: Just type. Saving is automatic. Backspace to delete a typo. To engage autorepeat, tap thrice on any key and hold down. Special characters: accent grave (lowercase [tilde]) types a document character; tilde (uppercase [tilde]) types a page character.
+
+<B>Archy CURSOR</B> has two parts, a head and a tail. The blinking head covers one character, the tinted tail can be extended to cover many characters (see "Selection" below). The cursor always follows this rule: "The head shows exactly where text will appear if you type or insert text; the tail shows what will be erased if you use the Backspace or Delete key." The head and tail merge on a single character after a Leap, but the rule does not change.
+
+<B>LEAPING</B> (cursor movement): If you hold down a <FONT COLOR="#669933">Leap key</FONT> (either [alt]) and type something (a "<FONT COLOR="#669933">Leap pattern</FONT>"), the cursor instantly begins to seek what you type. The pattern will appear in the transparent <FONT COLOR="#669933">Leap window</FONT> at the top of the Archy window. Spaces, returns, and tabs become visible when you hold down the Leap key. Be sure to use them in your Leap patterns if needed. If you make a typo while leaping you can use the [backspace] key to delete it.
+
+<B>LEAP KEYS</B>: Right [alt] is <FONT COLOR="#669933">Leap Forward</FONT>, left [alt] is <FONT COLOR="#669933">Leap Backward</FONT>. Forward means ahead of the cursor in a reading direction. Backward means behind the cursor.
+
+<B>LEAP TECHNIQUE</B>: Look at the place you'd like the cursor to leap -- "here", for example -- hold down the Leap key, then type "here". When the cursor arrives, let go of [alt].
+
+<B>FINDING INFORMATION</B>: All leaps search the entire text, so you can easily find things off-screen. Hold down the Leap key, type what you want to find, let go when you arrive. Use a key word, part of a word, a number -- anything.
+
+<B>FAILED LEAPS</B>: If the pattern you type cannot be found, the cursor returns to the starting point and a bell rings. You can correct the leap pattern without letting go of the Leap key by using [backspace].
+
+<B>LEAP AGAIN</B>: To repeat a leap to the same pattern, let go of [alt], then hold down [capslock] and tap the appropriate Leap key (the right or left [alt]). This is called <FONT COLOR="#669933">Leap Again</FONT>. You can switch directions by switching Leap keys.
+
+<B>LEAP TO BEGINNING OR END OF ARCHY</B>: Hold down the appropriate Leap key ([alt]) and tap repeatedly on [tilde].
+
+<B>SELECTION</B>: During a Leap, the text you cover will become yellow. This is called the "<FONT COLOR="#669933">preselection</FONT>". Press both [alt] keys after leaping or Leaping Again and the preselection will be selected (the tail of the cursor extends, turning the preselection bright blue). Pressing both [alt] keys after typing will select the recently typed text. Selected text can be erased with [backspace] or manipulated with commands such as <FONT COLOR="#CC6633">MOVE</FONT>, <FONT COLOR="#CC6633">BOLD</FONT>, <FONT COLOR="#CC6633">ITALIC</FONT>, and <FONT COLOR="#CC6633">SWAP</FONT>. If you type after making a selection, your typing is inserted and the selected text is not deleted.
+
+<B>COLLAPSING SELECTION</B>: Tap [left] to <FONT COLOR="#669933">collapse</FONT> the cursor to the beginning of the selected text; tap [right] to collapse the cursor to the end of the selected text. To rehighlight, press both [alt] keys again. The pale blue tint left behind after collapse indicates the <FONT COLOR="#669933">most recent selection</FONT>. Paler shades of blue indicate older and older selections.
+
+<B>CREEPING</B>: Tap [left] or [right] to move the cursor one character at a time ("<FONT COLOR="#669933">creeping</FONT>"). Press both [alt] keys after creeping, and the selection will change by the amount creeped. Tap [up] or [down] to adjust the text up or down a line or two.
+
+<B>SCROLLING</B>: To scroll, leap to a return and then use Leap Again (described above). Use [up] and [down] only for minor adjustments. To scroll document-by-document, leap to [tilde] and then Leap Again.
+
+<B>PRESELECTION AND OLD SELECTIONS</B>: During a Leap, yellow-tinted text shows what will be selected if you press both [alt] keys. This is called the <FONT COLOR="#669933">preselection</FONT>. Light blue and pale blue tints indicate the two most recent selections (useful with certain commands). These are called the <FONT COLOR="#669933">old selections</FONT>.
+
+<B>COMMANDS</B>: To invoke a <FONT COLOR="#669933">command</FONT>, hold down [capslock], and, while you hold it, type the command name, then let go. Editing commands operate on highlighted text. Use the <FONT COLOR="#CC6633">COMMANDS</FONT> command to see a list of commands. For a detailed description of each command leap to the command name. Also try leaping to the Help Document by leaping to "H [space] E [space] L [space] P", where [space] indicates a tap of the Space Bar.
+
+<B>TO QUIT ARCHY</B>, use the <FONT COLOR="#CC6633">QUIT</FONT> command. When you start up again, everything will be exactly as you left it.
+
+`
+
+`H E L P  --  C O M M A N D S
+
+To invoke a command, select the text you want to affect (if necessary), hold down [capslock] and start typing the command name. Almost all command names fill in automatically before you finish typing the whole name. When you see the correct command name in the command window, quit typing and let go of [capslock]. To repeat a command, hold down [capslock] and tap on the Enter key while you hold it down (this technique is also used for Leap Again). See tutorial <FONT COLOR="#CC6633">EX6</FONT> for an audio/video introduction to commands.
+
+Below you will find descriptions of Archy's current catalog of commands. New commands are easily imported into Archy, so this list will expand rapidly. Check RCHI for updates.
+ 
+To print a list of Archy commands, use the COMMANDS command. Leap (Leap Again, if necessary) to the command name to find a description of it in this HELP area.
+
+<FONT COLOR="#0033FF" SIZE="25">Archy Commands List</FONT>
+
+<B>ALL CAPS</B>: Converts all letters in the selected text to capital letters.
+
+<B>BIG</B>: Sets the font size of the selected text to 18 points.
+
+<B>BOLD</B>: Changes the style of the selected text to boldface.
+
+<B>CALC</B>: Treats the selection as an arithmetic expression and evaluates it. The expression is placed in the Deletions Area and the result is placed in the text. The syntax of expressions is that used in Python and is similar to that used by most calculators. For example, evaluating (3 + 4) * 5.5 yields 38.5, but 3 + 4 * 5.5 yields 25.
+
+<B>CALENDAR</B>: Inserts a calendar for the current year in the text.
+
+<B>CALENDAR MONTH</B>: Inserts a calendar for the current month in the text.
+
+<B>CAP EACH WORD</B>: Capitalizes the first letter of each word in the selected text, ignoring numerals. Example: "This is a 5test" becomes "This Is A 5Test".
+
+<B>CLEAR UNDO HISTORY</B>: Erases Archy's memory of past keyboard operations. CAUTION: If you invoke this command, you will not be able to UNDO anything unless it was done after the last use of this command.
+
+<B>COMMANDS</B>: Displays a list of all of Archy's commands.
+
+<B>COLOR</B>: Changes the color of selected text. 1) Select the text you want to change. 2) Select the name of a color (almost all color names work, but a definitive list will be supplied in the future). 3) Give the <FONT COLOR="#CC6633">COLOR</FONT> command. The older of the two selections will change to the color you named in step 2. If you know hexidecimal color code, you can type and select the correct hexidecimal term (in the form "#RRGGBB") in step 2.
+
+<B>COPY</B>: Inserts a copy of the selected text at the position of the cursor.
+
+<B>COPY IN</B>: Allows transfer of material from other software into Archy. Inserts copy of Windows or Macintosh "clipboard" (where the text goes a cut or copy is issued) into the text.
+
+<B>COPY OUT</B>: Copies selection to system "clipboard" so that material in selection can be pasted into program outside Archy.
+
+<B>DATE</B>: Inserts current date -- for example, "Tue, 28 Dec 2004" -- into text, leaving it selected.
+
+<B>DROP</B>: Drops the current, most recent selection and moves the second-most-recent selection into the position of "most recent." You can drill back through history by repeated use of the command, if desired. EXAMPLE: You want to change the color and size of a single selection, so you use the <FONT COLOR="#CC6633">COLOR</FONT> command, then use <FONT COLOR="#CC6633">DROP</FONT> and use the <FONT COLOR="#CC6633">SIZE</FONT> command.
+
+<B>EX1 through EX6</B>: Runs audio/video tutorial designated by the number. Current list includes <FONT COLOR="#CC6633">EX1</FONT>, "Typing and Getting Back"; <FONT COLOR="#CC6633">EX2</FONT>, "Leaping"; <FONT COLOR="#CC6633">EX3</FONT>, "Leap Again"; <FONT COLOR="#CC6633">EX4</FONT>, "Leaping for Information"; <FONT COLOR="#CC6633">EX5</FONT>, "Selection"; and <FONT COLOR="#CC6633">EX6</FONT>, "Commands". To stop a tutorial, tap any key. More tutorials will be available in the future.
+
+<B>EXPUNGE</B>: Permanently deletes the selected text. The selected text will NOT be stored in Deletions Area. Commanding Archy to <FONT COLOR="#CC6633">UNDO</FONT> an <FONT COLOR="#CC6633">EXPUNGE</FONT> yields only an asterisk for every expunged character.
+
+<B>FIND ERROR</B>: If you are writing code in the Command Scripts area and you get an error message, this command will leap the cursor to the line of code that generated the error message.
+
+<B>FONT</B>: Changes the text of the current selection to the font named by the text of the previous selection.
+
+<B>FONT LIST</B>: Inserts a list of the available fonts into the text, leaving it selected.
+
+<B>FULL SCREEN</B>: Opens Archy's window to take up entire screen.
+
+<B>GET EMAIL</B>: Dumps any email that has arrived since you last used the <FONT COLOR="#CC6633">GET EMAIL</FONT> command into the EMAIL area.
+
+<B>GMT DATE</B>: Inserts today's date according to Greenwich Mean Time (example: "Tue, 28 Dec 2004").
+
+<B>GMT TIME</B>: Inserts the current Greenwich Mean Time in HH:MM:SS (hours-minutes-seconds) format.
+
+<B>GOOGLE</B>: Opens a Web browser window and issues a Google search for the selected text. Simply select what you want to find on Google, then use the <FONT COLOR="#CC6633">GOOGLE</FONT> command.
+
+<B>HIDE MOUSE</B>: Hides the mouse-moveable cursor.
+
+<B>HIDE PASSWORD</B>: Changes currently selected text into "***" symbols so that it becomes unreadable to you. However, Archy can still read the text when it needs to. This command is useful for any Archy function that requires a password. Currently, the only such function is EMAIL, but the list will be expanding.
+
+<B>CAUTION</B>: <FONT COLOR="#CC6633">UNDO</FONT> does not bring back hidden passwords. Once the text becomes unreadable, it cannot be transformed back into readable text, so make a note of passwords. 
+
+<B>ISSUES</B>: Opens RCHI's bug tracking tool, a Web page where Archy bugs are tracked.
+
+<B>ITALIC</B>: Changes the style of the selected text to italics.
+
+<B>LEAP</B>: Uses the selected text as a Leap pattern. Good for leaping to longer Leap patterns.
+
+<B>LEAP BACK</B>: Same as <FONT COLOR="#CC6633">LEAP</FONT>, but the search is in the opposite direction (backward) through the text.
+
+<B>LOCK</B>: Protects selected text from deletion. Locked text is indicated with black background and teal font. If you attempt to type in an area of locked text, the typing is inserted at the end of the locked area.
+
+<B>MAP</B>: Shows you the Google map to the selected address. 1) Type an address, 2) select it, 3) use the <FONT COLOR="#CC6633">MAP</FONT> command. The address should be written in the form: Number, Street, City, State (or zip). You can also search for a Zip code. Google will open a map that shows the general area covered by the Zip code you typed and selected.
+
+<B>MOVE</B>: Moves the selected text to the cursor's current  location. <FONT COLOR="#CC6633">MOVE</FONT> functions as <FONT COLOR="#CC6633">COPY</FONT> when used on locked text, but the copied text is not locked.
+
+<B>NEW EMAIL</B>: Places a form for a new email in the text, as shown below:
+
+To:
+CC:
+Subject:
+Body:
+
+To email a message, select it and use the <FONT COLOR="#CC6633">SEND</FONT> command. As long as you are connected to an ISP and you have filled out the EMAIL SETTINGS document in Archy, the email will be sent.
+
+<B>NO CAPS</B>: Converts all letters in the selected text to lowercase.
+
+<B>NORMAL</B>: Changes the style of the selected text to normal (no bold, no italics).
+
+<B>PARTIAL SCREEN</B>: Causes display to take up only part of screen.
+
+<B>QUIT</B>: Exits Archy.
+
+<B>REDO</B>: "Redoes" the most recently undone command, restoring Archy to its most recent state. (Simply put, it "undoes" previous <FONT COLOR="#CC6633">UNDO</FONT>s.) When UNDO has been used multiple times, multiple <FONT COLOR="#CC6633">REDO</FONT>s backtracks through all of them.
+
+<B>REMOVE BOLD</B>: Removes bold formatting from selected text.
+
+<B>REMOVE ITALIC</B>: Removes italic formatting from selected text.
+
+<B>REMOVE SPELLCHECK INDICATORS</B>: When the red tinted indicators that are left in the text after you use the <FONT COLOR="#CC6633">SPELLCHECK</FONT> command. Typing "REMOVE S" is enough to complete this command name in the Command window.
+
+<B>REPLACE</B>: Replaces one chunk of text with another, permitting you to make the decision as to whether or not to replace one instance at a time. 1) Select an instance of what you want to replace. 2) Select an instance of what you want to replace it with. 3) Select the text (and/or images) in which you wish to make replacements. 4) Use the <FONT COLOR="#CC6633">REPLACE</FONT> command.
+
+Each instance of the material to be replaced is displayed so that you can choose on an individual basis whether to make the replacement, not to make the replacement. An on-screen message shows the commands used for these three options.  You can abort the <FONT COLOR="#CC6633">REPLACE</FONT> process at any time simply by resuming normal editing.
+
+<B>REPLACE ALL</B>: Functions like the <FONT COLOR="#CC6633">REPLACE</FONT> command, except all instances of the term to be replaced within the selected area are instantly replaced.
+
+<B>RUN</B>: Executes any indented lines of the selected text as a Python program. For the text to be considered code, the line must begin two spaces.
+
+<B>S</B>: Not available at this time.
+
+<B>SEND</B>: Assuming you are connected to an ISP (Internet Service Provider), <FONT COLOR="#CC6633">SEND</FONT> sends your email. 1) Select the email form, 2) invoke the <FONT COLOR="#CC6633">SEND</FONT> command.
+
+<B>SHOW MOUSE</B>: Displays the mouse-activated cursor.
+
+<B>SIZE</B>: Changes the size of selected text. 1) Select some text. 2) Type the point size you desire (range from 1 pt to 500 pts.). 3) Select the point size you typed and use the <FONT COLOR="#CC6633">SIZE</FONT> command.
+
+<B>SMALL</B>: Sets font size of selected text to 12 points.
+
+<B>SPELLCHECK</B>: Checks the spelling of words in the selected text(also see <FONT COLOR="#CC6633">REMOVE SPELLCHECK INDICATORS</FONT>).
+
+1) Select the part of your text you want to check.
+
+2) Use the <FONT COLOR="#CC6633">SPELLCHECK</FONT> command. All questionable words will be highlighted in red, and the cursor leaps to the first highlighted word. A transparent window appears, displaying a set of alternatives.
+
+For example, if the unrecognized word was "toyd", the transparent window would display alternatives such as
+
+1-toy 2-toad 3-toed 4-told 5-toys
+6-toyed 7-toe 8-toyon 10-Toyota 11-toddy
+
+To substitute a word from the list, hold down [capslock] and type the number of the desired alternative.
+
+To keep the spelling "as is", hold down [capslock] and type <FONT COLOR="#CC6633">KEEP</FONT>, then let go.
+
+To add the highlighted word to Archy's dictionary, use the <FONT COLOR="#CC6633">LEARN</FONT> command.
+
+As soon as you choose one of these alternatives, the cursor leaps to the next highlighted word.
+
+You can also ignore the transparent message and Leap or creep away. Typing or deleting in a highlighted word causes the highlight to go away.
+
+<B>SWAP</B>: Exchanges the contents of the two most recent selections. For example, you can transpose any two paragraphs (pages, documents, words) anywhere in the text with the <FONT COLOR="#CC6633">SWAP</FONT> command. 
+
+<B>SWAPSEL</B>: Swaps the status of the two most recent selections, marking the second selection as first and the first as second.
+
+<B>SYSTEM INFO</B>: Inserts information about the computer system.
+
+<B>TIME</B>: Inserts the current time according to your time zone, using a 12-hour, HH:MM:SS format (for example, "05:24:23 PM").
+
+<B>TIME ZONE</B>: Inserts the name of your time zone (such as "Pacific Daylight Time").
+
+<B>TO FRENCH</B>: Replaces the selected English text with that text translated into French.
+
+<B>TO GERMAN</B>: Replaces the selected English text with that text translated into German.
+
+<B>TO ITALIAN</B>: Replaces the selected English text with that text translated into Italian.
+
+<B>TO SPANISH</B>: Replaces the selected English text with that text translated into Spanish.
+
+<B>UNDO</B>: Reverses the last action, returning Archy to its previous state. Repeated use of <FONT COLOR="#CC6633">UNDO</FONT> can be used to drill down through history to the way Archy was when you first installed it. This is true whether or not you've quit Archy in the intervening time.
+
+<B>UNLOCK</B>: Releases locked text so that it can be edited.
+
+<B>WEB</B>: Select a URL and use the <FONT COLOR="#CC6633">WEB</FONT> command. A browser window will open to the selected URL.
+`
+
+`<FONT COLOR="#0033FF" SIZE="25">Developing Archy Commands</FONT>
+
+~<FONT COLOR="#006699" SIZE="20">Introduction: "Hello, World!"</FONT>
+
+Archy interactions are based on commands. To develop features for Archy, you need to develop commands for Archy. Fortunately, you can develop Archy commands from inside Archy itself!  No need for compiling, saving, application-switching, or command prompts. Archy is as powerful as an integrated development environment as it is as an editor.
+
+In Archy, commands are contained in the COMMAND SCRIPT area. Like other special areas of Archy, the command scripts area begins with the phrase COMMAND SCRIPT DOCUMENTS, with a space inserted in between each letter. (If the name were "PROGRAMS", you would leap to "P R O G R A M S"). Try Leaping there, and take a look around some of the scripts that are already there.
+
+So first, the basics. The most basic command consists of a name, and a print statement: the classic "Hello, world!". Each command script begins with a document character, followed by a header, like this:
+
+<FONT COLOR="#777777">-document character-</FONT><FONT FACE="monospace" COLOR="#3A7A50">
+command script HELLO
+</FONT>
+
+The easiest way to get a command to print something is to simply use Python's print statement:   print "Hello, World!". So the simplest command you can have is:
+
+<FONT COLOR="#777777">-document character-</FONT><FONT FACE="monospace" COLOR="#3A7A50">
+command script HELLO
+print "Hello, World!"
+</FONT>
+
+If you copy this script into your command scripts document, you can then issue the <FONT COLOR="#CC6633">HELLO</FONT> command just like you would issue any other command. It's that easy!
+
+
+~<FONT COLOR="#006699" SIZE="20">The Archy API: A better "Hello, world!"</FONT>
+
+Archy has its own API (which, like the rest of Archy, is still a work in progress). It is included with Archy in the api module. To include this package in your command script, simply import it:
+<FONT FACE="monospace" COLOR="#3A7A50">
+import api
+</FONT>
+Then you can use all of the api's function calls. For instance, to maintain precise control over the text you insert into Archy, you can call:
+<FONT FACE="monospace" COLOR="#3A7A50">
+  api.insert_text("Hello, World!")
+</FONT>
+This would insert the phrase in quotes, without the newline that Python's print statement automatically appends to a string. So a much better "Hello, world" program would be:
+
+<FONT COLOR="#777777">-document character-</FONT><FONT FACE="monospace" COLOR="#3A7A50">
+command script HELLO IMPROVED
+import api
+api.insert_text("Hello, World!")
+</FONT>
+
+Same script with comments:
+
+<FONT COLOR="#777777">-document character-</FONT><FONT FACE="monospace" COLOR="#3A7A50">
+command script HELLO IMPROVED
+# This command inserts the phrase "Hello, World!" into the text at the cursor, and selects it.
+# First, we import Archy's API:
+import api
+# Then we call the insert_text() function:
+api.insert_text("Hello, World!")
+</FONT>
+
+This command script executes exactly the same way as the previous one.
+
+~<FONT COLOR="#006699" SIZE="20">Transparent Messages: "Hello, World!" Perfected</FONT>
+
+Since the "Hello, World!" program does not do anything for the user, it would be nice if it didn't interfere with his work. Archy is intended to improve human interactions. For the purpose of displaying messages that the user might like to see, but does not need to refer back to, Archy provides transparent messages. You can show messages by calling the api function show_message(""). So we finally come to the best version of "Hello, World!":
+
+<FONT COLOR="#777777">-document character-</FONT><FONT FACE="monospace" COLOR="#3A7A50">
+command script HELLO PERFECTED
+import api
+api.show_message("Hello, World!")
+</FONT>
+
+Transparent messages disappear whenever a user presses a key,  If you have something that a user needs to be able to edit, copy, or move around, then make sure you use insert_text(), and only use show_message() for messages that are purely informational. (NOTE: in future versions of Archy, even transparenent messages will be stored in a special MESSAGES area, just as DELETIONS are saved).
+
+~<FONT COLOR="#006699" SIZE="20">The RUN Command: Making Life Easier</FONT>
+
+Like some IDE suites, you can run code from within Archy without even writing a command script. If you haven't used the <FONT COLOR="#CC6633">RUN</FONT> command before, now would be a good time to try it. Select the two lines of code in the above command script, and issue the <FONT COLOR="#CC6633">RUN</FONT> command. See what happens?  So if you're in the middle of writing a huge block of code, and want to test some part of it, all you need to do is select a decently self-sufficient block of code, and issue the <FONT COLOR="#CC6633">RUN</FONT> command.
+
+Just as with command scripts, the <FONT COLOR="#CC6633">RUN</FONT> command intercepts "print" statements, and inserts the results into the text. But even better, if there is a problem in the code and an exception is thrown, the <FONT COLOR="#CC6633">RUN</FONT> command displays the traceback, so you can see what went wrong. For example, try running the following three lines of code:
+
+<FONT FACE="monospace" COLOR="#3A7A50">
+  a = 3
+  b = "12"
+  c = a + b
+</FONT>
+
+The Python interpreter doesn't know how to add a string to an integer, so it raises a type exception. The RUN command intercepts the standard out, and inserts it into the text. To Leap to the line of code that caused the exception issue the GOTO command while the traceback is selected. Since the output is just like any other Archy text, you can UNDO, or delete the code, or copy it to some place, or delete everything except the one important line, or whatever you like.
+
+~<FONT COLOR="#006699" SIZE="20">Getting User Input</FONT>
+
+For commands to be truly useful they have to be able to interact with the user. The easiest way to do this is by reading the text that the user has selected: Old selections act just like commands line arguments for command line applications.
+
+Say that one wants to translate a some user-selected text into Japanese using AltaVista's online translation tool. With a little bit of work one finds that the url to translate text from English to Japanese is:
+
+<FONT FACE="monospace" COLOR="#3A7A50">http://babelfish.altavista.com/tr?lp=en_ja&#38;trtext=[text to translate]</FONT>
+
+Therefore all we have to do is get the text in the current selection, merge it into the url, and use Python's webbrowser module to open the url. To get the text in the current selection we use the method api.get_selection_text( selection_name ). The method takes a selection name ('preselection', 'selection', 'old selection', etc.) and returns a tuple that contains a copy of the text in the first position and an array of style information in the second position:
+
+<FONT FACE="monospace" COLOR="#3A7A50">  text, textStyling = api.get_selection_text( 'selection' )</FONT>
+
+If one knows the url to open, after importing the webbrowser module one can open that url by calling:
+
+<FONT FACE="monospace" COLOR="#3A7A50">  webbrowser.open( url )</FONT>
+
+Now we put it all together:
+
+<FONT COLOR="#777777">-document character-</FONT><FONT FACE="monospace" COLOR="#3A7A50">
+command script TRANSLATE TO JAPANESE
+import api, webbrowser
+text, textStyling = api.get_selection_text( 'selection' )
+url = 'http://babelfish.altavista.com/tr?lp=en_ja&#38;trtext=' + text
+webbrowser.open( url )
+api.show_message('The translation will appear in your web browser.')
+</FONT>
+
+A more advanced version of this command might get the html of the url directly, extract the translation, and dump the text back into Archy.
+
+This tutorial is a work in progress. Check back for more later.
+
+`<FONT COLOR="#0033FF" SIZE="20">API Quick Reference</FONT>
+
+<FONT COLOR="#006699" SIZE="16">Text Functions</FONT> 
+	<FONT FACE="monospace" COLOR="#3A7A50">insert_text(textString, styleString = None)</FONT>:
+		This function inserts the given (unicode) string at the current cursor position, and selects that string. 
+	<FONT FACE="monospace" COLOR="#3A7A50">delete_selection(addToDeletionsDocument = 1)</FONT>:
+		This function deletes the current selection; it is equivalent to the user pressing the backspace key. 
+	<FONT FACE="monospace" COLOR="#3A7A50">get_selection_text(selectionName)</FONT>:
+		This function gets the named selection text. Valid selection names are: 'preselection', 'selection', 'old selection'. The return is a tuple: selectionText, selectionTextStyles. The selectionText is a unicode string, and the selectionTextStyles is an array (of the same length) of integers. These integers correspond to an internal Archy way of keeping track of styling information. Keep them if you want to copy the text with styles intact; throw them away if you're only interested in the text.
+
+<FONT COLOR="#006699" SIZE="16">Commands and Messages</FONT>
+	<FONT FACE="monospace" COLOR="#3A7A50">run_command(commandName)</FONT>:
+		This function executes the command with the given name. It is the equivalent of the user entering the command quasimode, typing the given string, and leaving the command quasimode. commandName should be a (unicode) string. 
+	<FONT FACE="monospace" COLOR="#3A7A50">show_message(msg)</FONT>:
+		Displays a normal priority transparent message, where msg is a (unicode) string.
+
+<FONT COLOR="#006699" SIZE="16">Cursor Manipulation</FONT> 
+	<FONT FACE="monospace" COLOR="#3A7A50">leap_forward(target)</FONT>
+	<FONT FACE="monospace" COLOR="#3A7A50">leap_backward(target)</FONT>
+		Executes a leap forward / backward of the given target. The target should be a string, preferably a unicode string.
+
+	<FONT FACE="monospace" COLOR="#3A7A50"> creep_forward()</FONT>
+	<FONT FACE="monospace" COLOR="#3A7A50"> creep_backward()</FONT>
+		Executes a creep forward / backward.
+
+	<FONT FACE="monospace" COLOR="#3A7A50"> get_cursor()</FONT> 
+	<FONT FACE="monospace" COLOR="#3A7A50"> set_cursor(pos)</FONT>
+		Gets / sets the position of the cursor in the text, which is an integer in the range(0,length-1).
+
+<FONT COLOR="#006699" SIZE="16">Selection Manipulation</FONT>
+Valid selection names are: 'preselection', 'selection', 'old selection' 
+
+	<FONT FACE="monospace" COLOR="#3A7A50">select()</FONT>
+		Acts like pressing both alt keys down: selects.
+	<FONT FACE="monospace" COLOR="#3A7A50">is_selection_extended()</FONT>
+		This function checks to see whether the selection is extended; returns True/False.
+	<FONT FACE="monospace" COLOR="#3A7A50">selection_exists(selectionName)</FONT>
+		This function checks to see whether the named selection exists; returns True/False. 
+
+	<FONT FACE="monospace" COLOR="#3A7A50">get_selection(selectionName)</FONT>
+		
+	<FONT FACE="monospace" COLOR="#3A7A50">set_selection(selectionName, start, end)</FONT>
+		These functions get / set the named selection; a selection is a tuple: start,end.
+
+	<FONT FACE="monospace" COLOR="#3A7A50">get_selection_list()</FONT>
+		
+	<FONT FACE="monospace" COLOR="#3A7A50">set_selection_list(selections)</FONT>
+		Retrieves / sets the text selections of Archy: Returns / requires a list of (start, end) tuples.
+
+<FONT COLOR="#006699" SIZE="16">Style Manipulation</FONT> 
+	<FONT FACE="monospace" COLOR="#3A7A50">set_style(**styles)</FONT>
+		Used for setting styling information. The currently selected text is assigned the style values passed to the function. Arguments are of the type: 'font'='Arial'. Available arguments include: 'font'=name, 'size'=number, 'bold'=True/False, 'italic'=True/False. Include as many arguments as desired; all unnamed arguments will be left alone. 
+	<FONT FACE="monospace" COLOR="#3A7A50">get_available_fonts()</FONT>
+		Gets the fonts available on the system 
+	<FONT FACE="monospace" COLOR="#3A7A50">color_name_to_color(color)</FONT>
+		Converts a color name to an RBG color
+
+<FONT COLOR="#006699" SIZE="16">Special Characters</FONT> 
+	<FONT FACE="monospace" COLOR="#3A7A50">document_character()</FONT>
+		Returns a document character 
+	<FONT FACE="monospace" COLOR="#3A7A50">page_character()</FONT>
+		Returns a page character
+
+</BEHAVIOR>
+`<BEHAVIOR TYPE="LOCK">C O M M A N D   S C R I P T   D O C U M E N T S
+The documents in this area are executable commands. Many of the commands included with Archy are implemented here; you can add your own command scripts, and they, too, will become executable commands. Leap to the document titled "Developing Archy Commands" to learn how to write you own commands. Leap to the document titled "API Quick Reference" to see a summary of the available api function calls.
+</BEHAVIOR>
+<FONT FACE="monospace">
+
+`command script LEAP
+import api
+target = api.get_selection_text('selection')[0]
+api.leap_forward(target)  
+
+`command script LEAP BACK
+import api
+target = api.get_selection_text('selection')[0]
+api.leap_backward(target)  
+
+`command script WEB
+import webbrowser, api
+text = api.get_selection_text('selection')[0].strip()
+try:
+  webbrowser.open(text)
+except Exception, (errno, strerror):
+  api.show_message('Failed to open URL "%s". Error (%s): %s' % (text, errno, strerror))
+
+`command script ISSUES
+import webbrowser
+webbrowser.open('http://raskincenter.org/issues')
+
+`command script MAP
+import webbrowser, api
+text, style = api.get_selection_text('selection')
+webbrowser.open('http://maps.google.com/maps?q='+text)
+
+`command script GOOGLE
+import webbrowser, api
+text, style = api.get_selection_text('selection')
+webbrowser.open('http://www.google.com/search?hl=en&amp;q='+text)
+
+`command script CAP EACH WORD
+import api
+text, style = api.get_selection_text('selection')
+api.delete_selection()
+api.insert_text( text.title(), style)
+
+`command script NO CAPS
+import api
+text, style = api.get_selection_text('selection')
+api.delete_selection()
+api.insert_text( text.lower(), style)
+
+`command script ALL CAPS
+import api
+text, style = api.get_selection_text('selection')
+api.delete_selection()
+api.insert_text( text.upper(), style)
+
+`command script DATE
+import time, api
+api.insert_text(time.strftime('%a, %d %b %Y'))
+
+`command script GMT DATE
+import time, api
+api.insert_text(time.strftime('%a, %d %b %Y', time.gmtime()))
+
+`command script TIME
+import time, api
+api.insert_text(time.strftime('%I:%M:%S %p'))
+
+`command script GMT TIME
+import time, api
+api.insert_text(time.strftime('%H:%M:%S', time.gmtime()))
+
+`command script TIME ZONE
+import time, api
+api.insert_text(time.tzname[1])
+
+`command script CALENDAR
+import api, calendar, time
+api.insert_text(calendar.calendar(time.localtime()[0]))
+api.set_style(font = 'monospace')
+
+`command script CALENDAR MONTH
+import api, calendar, time
+api.insert_text(calendar.month(*time.localtime()[0:2]))
+api.set_style(font = 'monospace')
+
+`command script TO SPANISH
+import translator, api
+text_to_translate = api.get_selection_text('selection')[0]
+api.delete_selection()
+try:
+  api.insert_text(translator.translate(text_to_translate, 'spanish') )
+except IOError:
+  raise api.AbortException('Unable to connect to altavista.com to translate text')
+
+`command script TO GERMAN
+import translator, api
+text_to_translate = api.get_selection_text('selection')[0]
+api.delete_selection()
+try:
+  api.insert_text(translator.translate(text_to_translate, 'german') )
+except IOError:
+  raise api.AbortException('Unable to connect to altavista.com to translate text')
+
+`command script TO FRENCH
+import translator, api
+text_to_translate = api.get_selection_text('selection')[0]
+api.delete_selection()
+try:
+  api.insert_text(translator.translate(text_to_translate, 'french') )
+except IOError:
+  raise api.AbortException('Unable to connect to altavista.com to translate text')
+
+`command script TO ITALIAN
+import translator, api
+text_to_translate = api.get_selection_text('selection')[0]
+api.delete_selection()
+try:
+  api.insert_text(translator.translate(text_to_translate, 'italian') )
+except IOError:
+  raise api.AbortException('Unable to connect to altavista.com to translate text')
+
+`command script COPY
+import commands
+commands.run.restore_stdout()
+import api
+if api.is_selection_extended():
+  copiedText, copiedStyle = api.get_selection_text('selection')
+else:
+  copiedText, copiedStyle = api.get_selection_text('old selection')
+api.insert_text(copiedText, copiedStyle)
+
+`command script SWAPSEL
+import api
+selectionEnds = api.get_selection('selection')
+oldSelectionEnds = api.get_selection('old selection')
+api.set_selection('selection', *oldSelectionEnds)
+api.set_selection('old selection', *selectionEnds)
+api.set_cursor(oldSelectionEnds[1]+1)
+
+`command script DROP
+import api
+selections = api.get_selection_list()
+if len(selections) &gt; 2:
+  selections.pop(1)
+  selections.append([-1,-1])
+  api.set_selection_list(selections)
+  selection = api.get_selection('selection')
+  api.set_selection('preselection', *selection)
+  api.set_cursor(selection[1] + 1)
+else:
+  raise api.AbortException('No previous selection to drop to.')
+
+`command script MOVE
+import commands
+commands.run.restore_stdout()
+import api
+api.run_command('COPY')
+api.run_command('SWAPSEL')
+api.delete_selection(0)
+api.run_command('DROP')
+
+`command script SWAP
+import commands
+commands.run.restore_stdout()
+import api
+copiedText, copiedStyle = api.get_selection_text('selection')
+api.delete_selection(0)
+api.run_command('COPY')
+api.run_command('SWAPSEL')
+api.delete_selection(0)
+api.insert_text(copiedText, copiedStyle)
+api.run_command('SWAPSEL')
+
+`command script REPLACE ALL
+import api, commands
+if not ( api.selection_exists('old selection') and api.selection_exists('first old selection') ):
+  raise api.AbortException('No selection to replace or selection to replace with!' ) 
+to_replace, to_replace_styles = api.get_selection_text('first old selection')
+replacement, replacement_styles = api.get_selection_text('old selection')
+selection, selection_styles = api.get_selection_text('selection')
+
+if selection.find(to_replace)==-1:
+  raise api.AbortException( to_replace + u' was not found in the selection.')
+
+api.delete_selection()
+a = selection.find(to_replace)
+while a &#60;&#62; -1:
+  selection = selection[:a] + replacement + selection[a+len(to_replace):]
+  selection_styles[a:a+len(to_replace)] = replacement_styles
+  a = selection.find( to_replace, a+1)
+api.insert_text(selection, selection_styles)
+api.run_command('DROP')
+
+`command script BOLD
+import api
+api.set_style(bold = 1)
+
+`command script REMOVE BOLD
+import api
+api.set_style(bold = 0)
+
+`command script ITALIC
+import api
+api.set_style(italic = 1)
+
+`command script REMOVE ITALIC
+import api
+api.set_style(italic = 0)
+
+`command script SMALL
+import api
+api.set_style(size = 10)
+
+`command script BIG
+import api
+api.set_style(size = 18)
+
+`command script NORMAL
+import api
+api.set_style(size = 12, bold=0, italic=0, font = 'sans', backgroundColor = [255,255,255], foregroundColor = [0,0,0])
+
+`command script SIZE
+import api
+size = api.get_selection_text('selection')[0]
+if not size.isdigit():
+  raise api.AbortException("Invalid Size")
+api.run_command('SWAPSEL')
+api.set_style(size = int(size))
+api.run_command('SWAPSEL')
+
+`command script COLOR
+import api
+color = api.get_selection_text('selection')[0]
+try:
+  color = api.color_name_to_color(color)
+except ValueError:
+  raise api.AbortException('Invalid color name.')
+api.run_command('SWAPSEL')
+api.set_style(foregroundColor = color)
+api.run_command('SWAPSEL')
+
+`command script FONT
+import api
+font_name = api.get_selection_text('selection')[0]
+api.run_command('SWAPSEL')
+api.set_style(font = font_name)
+api.run_command('SWAPSEL')
+
+`command script FONT LIST
+import api
+font_list = api.get_available_fonts()
+print ' '.join(font_list)
+
+</FONT><BEHAVIOR TYPE="LOCK">
+
+E N D   O F   C O M M A N D   S C R I P T   D O C U M E N T S</BEHAVIOR>
+`
+
+`<BEHAVIOR TYPE="LOCK">
+M O D U L E   D O C U M E N T S
+The documents in this area are importable modules. When using the RUN command or writing a command script, you can import any of these modules just as you would import python files.
+</BEHAVIOR>
+`module translator
+
+#This module implements the backend to translating text from English to
+#other languages via Altavista's Babel Fish translator.
+
+import urllib, re, api
+language_table = {'japanese':'en_ja', 'german':'en_de', 'french':'en_fr', 'italian':'en_it','spanish':'en_es'}
+
+def reformat_returns(text):
+  trailing_return = False
+  if text[-1] == chr(46): trailing_return = True
+  text = re.sub(r'(?m)^\s*$','', text)
+  text = re.sub(r'(?&lt;!\n)\n(?!\n|$)',' ', text)
+  if trailing_return: text += '\n'
+  return text
+
+def remove_illegal_characters(text):
+  return filter(lambda x:ord(x)>31, text)
+
+def translate(text_to_translate, language):
+  query = {'lp': language_table[language], 'trtext': remove_illegal_characters(text_to_translate)}
+  url = 'http://babelfish.altavista.com/tr?' + urllib.urlencode(query)
+  html = urllib.urlopen(url).read()
+  near_start = html.find('&lt;div style=padding:10px;&gt;')
+  start = html.find('&gt;', near_start) + 1
+  end = html.find('&lt;', start)
+  return reformat_returns(html[start:end])
+
+`module test_one
+
+This is a test module with a single trivial function, meant to test out how well the RUN command works.
+
+def test_func(x):
+  print "test_func() was called with argument: %d" % x
+`
+<BEHAVIOR TYPE="LOCK">E N D   O F   M O D U L E   D O C U M E N T S</BEHAVIOR>
+`
+
+``
+<BEHAVIOR TYPE="LOCK">This is 'loose code'. If it is selected along with the above document and the RUN command is executed, Archy should import the above module and run code from it.</BEHAVIOR>
+
+import test_one
+test_one.test_func(5)
+``<BEHAVIOR TYPE="LOCK">E M A I L </BEHAVIOR>
+
+
+<BEHAVIOR TYPE="LOCK">E N D   O F   E M A I L </BEHAVIOR>
+`<BEHAVIOR TYPE="LOCK">E M A I L   S E T T I N G S </BEHAVIOR>
+
+
+<BEHAVIOR TYPE="LOCK">The above settings determine what server, username, etc. the SEND and GET EMAIL commands use. To clear the form, simply select it, and press the backspace key. The answers to the text will be deleted, but the field names will not, because they are locked. Most of the fields are free-form; but those with [] brackets need you to answer with one of the alternatives in those brackets.
+
+The email address will be used for the FROM line in outgoing email. You should find out from your email provider what the server is, and whether it is a POP server or an IMAP server. Also, you should find out whether it uses SSL, and change that field appropriately. Incoming user / password are simply your username and password for your email account. To hide your password, select it, and then issue the HIDE PASSWORD command. If you are worried about people getting access to your password, you should then issue the CLEAR UNDO HISTORY command; which prevents people from UNDOing your HIDE PASSWORD command.
+
+The remainder of the forms are for your outgoing email server. You should check with your email provider to find out whether you need any form of authentication on your SMTP server. If you do not need to authenticate yourself to send email, you can simply fill in the Outgoing Server field, and leave the rest alone. If you do need to authenticate yourself to send email, then you should change the Outgoing Authentication response to "Yes", and fill in the rest of the form.
+E N D   O F   E M A I L   S E T T I N G S </BEHAVIOR>
+`<BEHAVIOR TYPE="LOCK">D E L E T I O N S </BEHAVIOR>
+
+
+<BEHAVIOR TYPE="LOCK">E N D   O F   D E L E T I O N S </BEHAVIOR>
+`</DOCUMENT>

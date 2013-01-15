@@ -1,0 +1,74 @@
+diff -cr SDL-1.2.8/src/events/SDL_keyboard.c SDL-1.2.8-patched/src/events/SDL_keyboard.c
+*** SDL-1.2.8/src/events/SDL_keyboard.c	2004-02-18 12:22:00.000000000 -0500
+--- SDL-1.2.8-patched/src/events/SDL_keyboard.c	2005-03-28 01:34:32.000000000 -0500
+***************
+*** 399,415 ****
+  	if ( state == SDL_PRESSED ) {
+  		keysym->mod = (SDLMod)modstate;
+  		switch (keysym->sym) {
+  			case SDLK_NUMLOCK:
+! 				modstate ^= KMOD_NUM;
+! 				if ( ! (modstate&KMOD_NUM) )
+! 					state = SDL_RELEASED;
+! 				keysym->mod = (SDLMod)modstate;
+  				break;
+  			case SDLK_CAPSLOCK:
+! 				modstate ^= KMOD_CAPS;
+! 				if ( ! (modstate&KMOD_CAPS) )
+! 					state = SDL_RELEASED;
+! 				keysym->mod = (SDLMod)modstate;
+  				break;
+  			case SDLK_LCTRL:
+  				modstate |= KMOD_LCTRL;
+--- 399,420 ----
+  	if ( state == SDL_PRESSED ) {
+  		keysym->mod = (SDLMod)modstate;
+  		switch (keysym->sym) {
++ 			/* ALTERATION: The following code for NUMLOCK and CAPSLOCK
++ 			   was commented out, and some code was added, to ensure
++ 			   proper behavior of these keys. */
+  			case SDLK_NUMLOCK:
+! 				//modstate ^= KMOD_NUM;
+! 				//if ( ! (modstate&KMOD_NUM) )
+! 				//	state = SDL_RELEASED;
+! 				//keysym->mod = (SDLMod)modstate;
+! 				modstate |= KMOD_NUM;				
+  				break;
+  			case SDLK_CAPSLOCK:
+! 				//modstate ^= KMOD_CAPS;
+! 				//if ( ! (modstate&KMOD_CAPS) )
+! 				//	state = SDL_RELEASED;
+! 				//keysym->mod = (SDLMod)modstate;
+! 				modstate |= KMOD_CAPS;
+  				break;
+  			case SDLK_LCTRL:
+  				modstate |= KMOD_LCTRL;
+***************
+*** 444,453 ****
+  		}
+  	} else {
+  		switch (keysym->sym) {
+  			case SDLK_NUMLOCK:
+  			case SDLK_CAPSLOCK:
+! 				/* Only send keydown events */
+! 				return(0);
+  			case SDLK_LCTRL:
+  				modstate &= ~KMOD_LCTRL;
+  				break;
+--- 449,464 ----
+  		}
+  	} else {
+  		switch (keysym->sym) {
++ 			/* ALTERATION: The following code for NUMLOCK and CAPSLOCK
++ 			   was modified to ensure proper behavior of these keys;
++ 			   previously, both the NUMLOCK and CAPSLOCK cases would
++ 			   exit the function with a return value of 0. */
+  			case SDLK_NUMLOCK:
++ 				modstate &= ~KMOD_NUM;
++ 				break;
+  			case SDLK_CAPSLOCK:
+! 				modstate &= ~KMOD_CAPS;
+! 				break;
+  			case SDLK_LCTRL:
+  				modstate &= ~KMOD_LCTRL;
+  				break;

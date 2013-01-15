@@ -1,0 +1,147 @@
+%%name=EX2
+%%sound=ex2.ogg
+%%title=EX2 - LEARNING TO LEAP
+%%text=LEAPING - PART I
+
+By heaven, methinks it were an easy leap,
+To pluck bright honour from the pale-faced moon,
+Or dive into the bottom of the deep
+
+                -- William Shakespeare
+
+	Tab1	Tab2	Tab3
+
+	Some sample leaps.
+
+The period, methinks, came after "leaps".
+
+What if the sea were settled by scads of sensible, sentient oysters?
+
+You can't leap from one space to the next by tapping the space bar over and over. That requires the Leap Again command, which you'll learn about in the next tutorial. If you type two or more spaces while holding a Leap key, Archy will try to find two or more spaces in the text, such  as   here    or     here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%keyboard position=300,-300
+%%script
+
+00.00	scroll	-5
+17.00	kb	300,175
+18.19	leapb	show
+18.49	leapb	unshow
+18.54	leapf	show
+18.84	leapf	unshow
+18.89	leapb	show
+19.19	leapb	unshow
+19.24	leapf	show
+19.54	leapf	unshow
+19.59	leapb	show
+19.89	leapb	unshow
+19.94	leapf	show
+20.24	leapf	unshow
+
+23.18	leapf	show
+23.48	leapf	unshow
+23.78	leapf	show
+24.08	leapf	unshow
+
+27.54	leapb	show
+27.84	leapb	unshow
+28.15	leapb	show
+28.45	leapb	unshow
+
+32.63	leapf	down
+35.96	leapf	up
+36.27	leapb	down
+40.48	leapb	up
+45.00	leapf	down
+52.12	h	press
+67.56	leapf	up
+68.06	kb	300,-300
+
+68.85	l	press
+69.15	e	press
+69.45	a	press
+69.75	p	press
+70.05	i	press
+70.35	n	press
+70.65	g	press
+70.95	space	press
+
+72.77	delete	press
+73.17	delete	press
+73.57	delete	press
+73.97	delete	press
+74.37	delete	press
+74.77	delete	press
+75.17	delete	press
+75.57	delete	press
+
+87.07	kb	300,175
+88.07	leapf	down
+88.57	.	press
+89.07	leapf	up
+90.00	kb	300,-300
+
+96.34	kb	300,175
+97.34	leapf	down
+99.38	space	press
+99.88	leapf	up
+100.40	kb	300,-300
+
+106.40	kb	300,175
+107.40	leapf	down
+107.80	return	press
+108.15	leapf	up
+108.65	kb	300,-300
+
+117.02	kb	300,175
+118.02	leapf	down
+120.82	s	press
+121.77	e	press
+122.70	a	press
+123.35	leapf	up
+123.85	kb	300,-300
+
+132.71	kb	300,175
+133.71	leapf	down
+136.12	s	press
+139.32	e	press
+144.92	n	press
+149.78	t	press
+157.62	delete	press
+164.23	z	press
+176.28	delete	press
+180.22	t	press
+185.01	leapf	up
+185.51	kb	300,-300
+
+199.29	kb	300,175
+201.29	leapb	show
+201.59	leapb	unshow
+201.79	leapb	show
+202.09	leapb	unshow
+
+208.96	leapb	down
+210.25	s	press
+210.77	p	press
+211.07	leapb	up
+212.07	kb	300,-300
+
+237.39	kb	300,175
+239.39	command	down
+246.77	u	press
+247.65	n	press
+253.15	command	up
+254.15	kb	300,-300
+
+265.63	end	meta

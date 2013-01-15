@@ -1,0 +1,109 @@
+This is a natural language version of the cases.  We need it because the full
+blown cases module is nearly impossible to read.
+
+To test UNDO and REDO, we follow each major section by:
+(1) UNDOing each case in the section
+(2) REDOing each case in the section
+(3) UNDOing the whole string.
+For brevity, I ommit here all of these cases (There are n + n + 2n such cases, where
+there are n cases in a section).
+
+#Case 0:
+Set all the text to the inital text state
+
+
+Table of Targets:
+*Basic AddText
+*Basic DeleteText
+*Boundary Document characters
+*Basic LEAP and selections
+*Basic Creep and selections
+*LEAP and boundary document characters
+*Add and Delete working on Preselection
+
+*Basic AddText
+
+Case 1:
+	Add a single character.
+Case 2:
+	Add a document character.
+Case 3:
+	Add a page character.
+Case 4:
+	Add a string of characters.
+	
+*Basic DeleteText
+
+Case 1:
+	Delete a single character (check Deletions document)
+Case 2:
+	Delete several single characters (check Deletions document)
+Case 3:
+	Delete an extended selection (check Deletions document)
+
+*Boundary Document characters
+
+Case 1:
+	Delete initial document character
+Case 2:
+	Delete final document character
+Case 3:
+	Add text on final document character
+Case 4:
+	Delete extended selection containing initial document character
+Case 5:
+	Delete extended selection containing final document character
+	
+*Basic LEAP and selections
+NOTE: Some of this will (by necessity) be somewhat reduplicated
+in the above cases.  Nevertheless, we explicitly test LEAP in this way.
+We test LEAP by leaping to a start target, creating some kind of preselection,
+selecting, deleting the selection, and checking to make sure the correct 
+things got deleted.
+
+Each of these cases is done twice, once for LEAP forward, once for LEAP backward.
+Case 1:
+	LEAP to a start, LEAP to a valid target after the start.
+Case 2:
+	LEAP to a start, LEAP to a valid target before the start.
+Case 3:
+	LEAP to a start, LEAP to an invalid target.	
+Case 4:
+	LEAP to a start, LEAP to an end, repeat LEAP to a valid target after the start.
+Case 5:
+	LEAP to a start, LEAP to an end, repeat LEAP to a valid target before the start.
+Case 6:
+	LEAP to a start, LEAP to a unique end, repeat LEAP (no other occurances).
+
+
+*Basic Creep and selections
+We test Creep by creating a preselection with LEAP, then modifying it with Creeps,
+then selecting and deleting.
+
+Each of the @ marked cases is done twice: once for Creep left, once for Creep right.
+@Case 1:
+	LEAP to a start, LEAP forward to an end, Creep once.
+@Case 2:
+	LEAP to a start, LEAP forward to an end, Creep several times.
+@Case 3:
+	LEAP to a start, LEAP backward to an end, Creep once.
+@Case 4:
+	LEAP to a start, LEAP backward to an end, Creep several times.
+@Case 5:
+	AddText once (collapses the preselection), Creep once.
+Case 6:
+	LEAP to a start, LEAP forward to an end, Creep left through the start.
+Case 7:
+	LEAP to a start, LEAP backward to an end, Creep right through the start.
+
+
+*LEAP and boundary document characters
+
+Case 1:
+	LEAP to the middle of the text, LEAP backward to ``````, Creep right, delete one character.
+Case 2:
+	LEAP to the middle of the text, LEAP forward to ``````, Creep left, delete one character.
+	
+*Add and Delete working on Preselection
+Needs to be added.
+

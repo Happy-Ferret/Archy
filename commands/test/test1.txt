@@ -1,0 +1,26 @@
+%%name=TEST1
+%%title=TESTING ARCHY ENGINE
+%%text=This is a test.
+%%script
+
+00.40	`This is a test.	compare
+00.50	leapf	down
+00.60	t	press
+00.70	e	press
+00.80	leapf	up
+00.90	delete	press
+01.00	`This is a est	compare
+01.10	command	down
+01.20	u	press
+01.30	n	press
+01.40	d	press
+01.50	o	press
+01.60	command	up
+01.70	`This is a test.	compare
+01.80	command	down
+01.90	r	press
+02.00	e	press
+02.10	d	press
+02.20	o	press
+02.30	command	up
+02.40	`This is a est.	compare

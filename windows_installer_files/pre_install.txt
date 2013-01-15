@@ -1,0 +1,6 @@
+Archy Pre-Install
+-----------------
+
+[Insert pre-install instructions here.]
+
+NOTE: This file is currently not included in the installer; enable it by uncommenting the appropriate line in archy.iss.in.

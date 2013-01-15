@@ -1,0 +1,176 @@
+%%name=EX6
+%%sound=ex6.ogg
+%%title=EX 6 - COMMANDS
+%%text=A paragraph that will soon be erased. After erasing it, we will bring it back again with the UNDO command.
+
+Another paragraph that will be deleted.
+
+And another.
+
+This is some more sample text, which will be used to show some editing commands.
+
+We will move the sample text above to a line halfway between this paragraph...
+zz
+
+...and this one by leaping to a "zz" marker at the insertion point, then using the MOVE command to move the highlighted text. There is nothing magic about the "zz" marker. It's just a "zz" that we typed there. Markers such as this are merely a useful Archy "trick" designed to employ Leaping to good advantage. You will undoubtedly think of many clever tricks yourself after using Archy for awhile.
+
+%%keyboard position=300,-300
+%%script
+
+00.00	scroll	-5
+08.44	kb	355,140
+09.44	leapf	down
+09.77	a	press
+10.02	space	press
+10.35	leapf	up
+
+11.63	leapf	down
+11.96	return	press
+13.90	leapb	press
+14.20	leapf	up
+
+18.04	delete	press
+
+25.15	command	down
+28.58	u	press
+37.28	command	up
+
+57.87	delete	press
+
+61.67	leapf	down
+62.00	a	press
+64.20	leapf	up
+
+66.47	leapf	down
+66.80	return	press
+69.94	leapb	press
+70.24	leapf	up
+
+72.67	delete	press
+
+73.56	leapf	down
+73.89	a	press
+76.12	leapf	up
+
+77.86	leapf	down
+78.29	return	press
+79.89	leapb	press
+80.19	leapf	up
+
+81.36	delete	press
+
+83.49	command	down
+83.82	u	press
+84.12	command	up
+
+88.89	command	down
+92.78	return	press
+93.78	return	press
+94.78	return	press
+95.78	return	press
+96.78	return	press
+97.78	return	press
+98.78	return	press
+99.78	return	press
+100.78	return	press
+101.2	command	up
+
+117.63	command	down
+120.10	r	press
+121.11	e	press
+122.11	d	press
+126.67	command	up
+
+135.13	command	down
+136.14	return	press
+136.64	return	press
+137.15	return	press
+138.65	return	press
+139.15	return	press
+139.65	return	press
+140.05	return	press
+140.55	return	press
+141.00	return	press
+142.62	command	up
+
+165.46	leapf	down
+167.36	d	press
+168.26	space	press
+169.45	e	press
+169.55	space	press
+169.65	l	press
+169.75	leapf	up
+170.75	kb	300,-300
+
+200.55	kb	355,140
+201.55	command	down
+201.88	u	press
+202.18	command	up
+
+204.34	leapf	down
+204.37	return	press
+204.70	return	press
+205.03	leapb	press
+205.33	leapf	up
+
+211.70	command	down
+213.77	c	press
+214.93	o	press
+216.11	p	press
+218.35	command	up
+
+234.82	leapf	down
+235.15	z	press
+235.45	z	press
+237.55	leapf	up
+
+241.18	command	down
+241.81	m	press
+242.86	o	press
+246.64	command	up
+
+254.73	command	down
+255.06	b	press
+255.45	o	press
+255.75	command	up
+
+258.73	command	down
+259.03	i	press
+259.36	t	press
+259.66	command	up
+
+261.38	return	press
+261.70	u	press
+262.00	s	press
+262.33	e	press
+262.63	r	press
+262.93	space	press
+263.26	t	press
+263.59	e	press
+263.92	x	press
+264.25	t	press
+264.55	space	press
+264.88	i	press
+265.20	s	press
+265.50	space	press
+265.83	s	press
+266.16	a	press
+266.49	c	press
+266.82	r	press
+267.15	i	press
+267.55	delete	press
+267.88	e	press
+268.18	d	press
+268.50	.	press
+268.83	return	press
+269.16	return	press
+
+286.38	command	down
+288.33	c	press
+289.05	o	press
+289.69	m	press
+290.80	command	up
+
+302.71	delete	press
+
+302.99	end	meta

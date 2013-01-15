@@ -1,0 +1,31 @@
+[Setup]
+AppName=Archy Build $BUILD$
+AppVerName=Archy v$VERSION$ build $BUILD$
+AppPublisher=The Raskin Center for Humane Interfaces
+AppPublisherURL=http://www.raskincenter.org/
+AppSupportURL=http://www.raskincenter.org/
+AppUpdatesURL=http://www.raskincenter.org/
+DefaultDirName={pf}\Archy Build $BUILD$
+DefaultGroupName=Archy Build $BUILD$
+LicenseFile=license.txt
+;InfoBeforeFile=pre_install.txt
+;InfoAfterFile=post_install.txt
+Compression=lzma
+SolidCompression=yes
+
+[Tasks]
+Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
+
+[Files]
+Source: "..\dist\archy.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\dist\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
+; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+
+[Icons]
+Name: "{group}\Archy Build $BUILD$"; Filename: "{app}\archy.exe"; WorkingDir: "{app}"
+Name: "{group}\{cm:UninstallProgram,Archy Build $BUILD$}"; Filename: "{uninstallexe}"
+Name: "{userdesktop}\Archy Build $BUILD$"; Filename: "{app}\archy.exe"; WorkingDir: "{app}"; Tasks: desktopicon
+
+[Run]
+Filename: "{app}\archy.exe"; WorkingDir: "{app}"; Description: "{cm:LaunchProgram,Archy Build $BUILD$}"; Flags: nowait postinstall skipifsilent
+

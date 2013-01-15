@@ -1,0 +1,210 @@
+%%name=EX5
+%%sound=ex5.ogg
+%%title=EX 5 - Selection
+%%text=This is a paragraph.
+
+And here is another paragraph.
+
+`Beginning of Document 1
+stuff...
+stuff...
+stuff...
+End of Document  1
+
+`Beginning of Document 2
+stuff...
+stuff...
+stuff...
+End of Document 2
+
+`Beginning of Document 3
+stuff...
+stuff...
+stuff...
+End of document 3
+
+`Beginning of Document 4
+stuff...
+stuff...
+stuff...
+End of document 4
+
+`
+The time has come, the Walrus said,
+To talk of many things.
+Of shoes, and ships, and sealing wax,
+Of cabbages, and kings.
+
+--Lewis Carroll
+
+Twas it brillig this morning, my good sir?
+
+
+
+
+	OLD SELECTIONS APPEAR AS FADED BLUE
+
+4...........................................4
+
+3...........................................3
+
+2...........................................2
+
+1...........................................1
+
+
+
+
+
+
+`
+%%keyboard position=300,-300
+%%script
+
+00.00	scroll	-5
+00.01	leapf	down
+00.02	t	press
+00.03	h	press
+00.04	leapf	up
+
+19.57	kb	355,130
+20.99	leapf	down
+23.16	return	press
+25.01	a	press
+42.80	leapb	press
+46.68	leapf	up
+47.68	kb	300,-300
+
+62.64	delete	press
+
+71.07	kb	355,130
+72.57	leapf	down
+72.90	`	press
+76.50	leapf	up
+83.82	leapf	down
+85.90	return	press
+86.86	`	press
+86.88	leapf	up
+88.90	leapf	down
+106.60	leapb	press
+110.59	leapf	up
+113.16	delete	press
+126.20	command	down
+126.91	leapf	press
+127.60	leapf	press
+128.60	command	up
+129.00	leapf	down
+133.46	leapb	press
+133.85	leapf	up
+135.74	delete	press
+137.00	kb	300,-300
+
+151.99	S	press
+152.20	o	press
+152.45	m	press
+152.70	e	press
+153.00	space	press
+153.25	t	press
+153.45	e	press
+153.70	x	press
+153.95	t	press
+154.20	.	press
+156.12	leapf	down
+156.42	leapb	press
+156.72	leapf	up
+157.42	delete	press
+
+158.31	kb	355,130
+159.40	leapf	down
+159.60	t	press
+159.80	h	press
+160.00	leapf	up
+160.40	leapf	down
+160.73	s	press
+161.13	e	press
+161.46	a	press
+161.79	leapb	press
+162.10	leapf	up
+
+168.15	left	press
+
+172.52	leapf	down
+172.85	leapb	press
+173.15	leapf	up
+
+177.47	right	press
+
+179.25	right	press
+179.70	right	press
+180.20	right	press
+180.70	right	press
+181.20	right	press
+181.70	right	press
+182.30	right	press
+182.80	right	press
+183.30	right	press
+183.80	right	press
+184.20	right	press
+
+188.00	leapf	down
+188.40	leapb	press
+188.70	leapf	up
+
+192.81	kb	300,-300
+
+210.75	kb	355,130
+211.75	up	press
+212.25	up	press
+212.75	up	press
+213.25	up	press
+
+214.35	down	press
+214.85	down	press
+215.35	down	press
+215.85	down	press
+216.35	down	press
+216.85	down	press
+217.35	down	press
+
+234.58	leapf	down
+234.80	return	press
+235.10	return	press
+235.40	return	press
+235.70	leapf	up
+237.16	left	press
+
+238.16	kb	300,-300
+
+245.75	leapf	down
+245.95	4	press
+246.05	leapf	up
+246.15	leapf	down
+246.35	4	press
+246.55	leapb	press
+246.75	leapf	up
+
+248.68	leapf	down
+248.88	3	press
+249.08	leapf	up
+249.28	leapf	down
+249.48	3	press
+249.68	leapb	press
+249.88	leapf	up
+
+251.15	leapf	down
+251.35	2	press
+251.55	leapf	up
+251.75	leapf	down
+251.95	2	press
+252.15	leapb	press
+252.35	leapf	up
+
+253.38	leapf	down
+253.58	1	press
+253.78	leapf	up
+253.98	leapf	down
+254.18	1	press
+254.38	leapb	press
+254.58	leapf	up
+
+280.55	end	meta

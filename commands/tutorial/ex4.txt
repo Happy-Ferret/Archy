@@ -1,0 +1,426 @@
+%%name=EX4
+%%sound=ex4.ogg
+%%title=EX4 - LEAPING FOR INFORMATION
+%%text=
+`
+THE QUEST
+
+Somewhere below, perhaps many Megabytes in the distance, is my address book.
+
+I could leap to "ADDRESS BOOK", or I could leap to the alphabetical heads -- "A-" or "B-" or "C-" -- but why take a roundabout route when it's even easier to leap DIRECTLY to the name I'm looking for?
+
+And if I don't remember the name exactly, then PART of it will do. Part of the phone number or address can also help me track down the information I need.
+
+In short, thanks to Leap, any clue will do!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`ADDRESS BOOK
+
+A-
+
+Aardvark, Antonia; 1243 Pescaloosa Place, Houston TX; 222-555-9797
+Ablutive Productions; 7568000 Wiltshire Blvd., Hollywood CA; 555-0000
+Achee, Braky; 5002 Hart St., Nashville TN; 55-211
+Acme Dog Grooming; 555-8765
+Addon, C.X.; 29 Edit Lane, Prolix AZ; speed dial 27
+Affloont, Rich; 555-72984460
+Aggro, Gofert; speed dial 21
+Ajunkt, Constance; speed dial 22
+Altrue, Natso; 55-5251
+Amtrak; google it
+Antwerp, George O.; 0987 Lathe St., Heavenly Valley CA
+Appro, Priate; 77 Level Rd., Foremost NY 00010; 212-555-3333
+Aquila, Al Tare
+Arro, Gant
+Atten, Dee
+Ave, Maria
+Azulikeit, Nao
+
+B-
+
+Baa, Baa
+Bah, Humbuck
+Balter, Dash
+Benny, Fitz
+
+C-
+
+D-
+
+E-
+
+F-
+
+G-, H-, I-, J-, K-, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Z-
+
+Zander, Mal
+Zarathustra, Thusspake
+Zebra, Evelyn
+Zest, Lymon
+Zimple, Toby
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER I - THE CALL
+
+It was a dark and stormy night. The telephone rang. Tom lifted the receiver.
+
+"Tell Marla we have to tell them," the soft, sultry voice said.
+
+"Tell them...what?" said Tom.
+
+"I thought you knew," said the voice. There was a click.
+
+Tom hung up. Just then, lightning flashed outside and the radio snapped on. Glen Miller.
+
+"It's going to be one of those nights," Tom said.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XIII - THE SECOND CALL
+
+It was another dark and stormy night. The phone rang.
+
+"Hello," said Tom.
+
+"It's Marla."
+
+Tom was speechless. The silence could have filled the pool at the Beverly Hills Country Club in a second. But it was more -- it was several seconds.
+
+"I gotta go," said Marla. There was a click.
+
+Tom slowly lowered the receiver as the dial tone did its thing.
+
+"That was...ambiguous," he explained.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XIV
+
+The day was tepid and unappetizing, like day-old miso soup.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XV - THE MYSTERY DEEPENS
+
+The high Sierras in winter. Tom crouched down in the snow. A squirrel sat opposite him. Their eyes met. The squirrel chattered something -- something nasty, Tom figured. "This could be...a mistake," Tom conjectured.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XVI - THE BIG BREAK
+
+Tom held his hand over his eyes and squinted. Nothing. He raised the binoculars. "Holy cow!" he said. "Now I see them!" The waves must have been forty feet high, breaking a mile out, and the surfers were as small as ants.
+
+"Wait a minute," said Tom. "Wait just a minute! This isn't the kind of big break I was talking about." He clenched his fists. "You think you're pretty smart, don't you, Marla," he said.
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XVII - WRITER'S BLOCK
+
+Tom sat in the cafe. He ordered another cappuccino. Twelve cappuccino cups sat empty on the table before him.
+
+
+
+
+
+
+`
+CHAPTER XVIII - UNDER CONSTRUCTION
+
+It was a dark....
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XIX - MARLA CALLS
+
+"Hello, Tom?"
+
+"Yeah?"
+
+"This is Marla."
+
+"Where are you?"
+
+"I'm down at the docks. Get here soon, or ..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XX - MARLA MISSING
+
+"Or what?" said Tom.
+
+But there was no answer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+CHAPTER XXI - THE DOCKS
+
+It was a sunny day, sunny and warm, with clouds hanging in the sky like crumpled paper napkins. It gets like that in southern California.
+
+Tom was thinking, thinking about how a lot of people -- smart people, good people -- misspell "southern California" with a capital 'S', when he pulled up to the harbor.
+
+There was a boat tied up at the dock, a big boat. Tom squinted. "Marla's Mystery" it said on the side in day-glo green letters two feet high. "Could be a trap," Tom thought as he got out of the car.
+
+A leggy redhead was sponging the mast, suds flying everywhere.
+
+"Marla?" Tom inquired.
+
+"You mean my SISTER -- wise guy?" the redhead said, turning around. He had a voice two octaves lower than a bassoon and a chiseled jaw that could've cracked walnuts.
+
+"I don't have any walnuts," said Tom.
+
+"Huh?" the guy said.
+
+`
+
+%%keyboard position=300,175
+%%script
+16.78	leapf	down
+21.63	p	press
+22.95	e	press
+24.26	s	press
+24.76	leapf	up
+
+25.26	kb	300,-300
+48.70	kb	300,175
+49.70	leapf	down
+51.64	z	press
+52.95	-	press
+54.30	return	press
+54.80	leapf	up
+55.80	kb	300,-300
+
+70.05	kb	300,175
+71.05	leapf	down
+74.00	t	press
+75.25	o	press
+76.57	m	press
+77.27	leapf	up
+78.27	kb	300,-300
+
+81.31	kb	300,175
+82.31	command	down
+84.21	leapf	press
+85.50	leapf	press
+86.50	leapf	press
+87.50	leapf	press
+88.00	command	up
+89.00	kb	300,-300
+
+94.29	kb	300,175
+95.29	leapf	down
+95.62	`	press
+95.95	leapf	up
+101.46	command	down
+101.79	leapf	press
+102.79	leapf	press
+103.79	leapf	press
+104.79	leapf	press
+105.79	leapf	press
+107.12	command	up
+108.12	kb	300,-300
+
+127.01	kb	300,175
+128.01	leapf	down
+130.19	a	press
+130.49	a	press
+138.70	j	press
+138.80	k	press
+138.90	l	press
+139.23	leapf	up
+140.23	kb	300,-300
+
+151.31	kb	300,175
+152.31	leapb	down
+152.64	s	press
+152.95	u	press
+153.28	d	press
+
+161.88	j	press
+161.98	k	press
+162.08	l	press
+165.92	leapb	up
+166.92	kb	300,-300
+
+184.81	end	meta

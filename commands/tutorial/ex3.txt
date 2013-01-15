@@ -1,0 +1,426 @@
+%%name=EX3
+%%sound=ex3.ogg
+%%title=EX3 - LEAP AGAIN
+%%text=Some Leaps
+
+A tyxpo
+
+This paragraph has several periods. The target is the period at the end of the paragraph. To leap directly to that particular period, add a return to the Leap pattern.
+
+Can any cat catapult over a cantaloupe? Tomcats are known to leap cantaloupes, and even the lowly avocado in extreme cases, as indicated by studies at the Advanced Institute for Catalogical Studies and a few scattered anecdotal reports.
+
+To leap from return to return, use the Leap Again command.
+
+Just hold down the Caps Lock key, and tap the Leap key.
+
+Reverse directions by tapping the other Leap key.
+
+Leaping to a return and Leaping Again, especially with autorepeat, is how we scroll in Archy.
+
+Leap to a return...
+
+Then Leap Again.
+
+To engage autorepeat, tap twice on the Leap key...
+
+And hold it down.
+
+The cursor...
+
+will...
+
+take...
+
+off...
+
+like...
+
+a rocket
+
+The cursor...
+
+is...
+
+now...
+
+scrolling...
+
+with...
+
+autorepeat...
+
+leaping...
+
+from...
+
+return...
+
+to...
+
+return...
+
+to return...
+
+to return...
+
+to return.
+
+It...
+
+will...
+
+stop...
+
+as...
+
+soon...
+
+as...
+
+you...
+
+let...
+
+go...
+
+of...
+
+the...
+
+Leap...
+
+key...
+
+This is not a real paragraph. But it's a pretty good imitation.
+
+These paragraphs are put here only to show you how to scroll in Archy.
+
+
+If a Gnu took a nap in the zoo
+
+Would you take a nap with the Gnu?
+
+If you knew just the way to curl up in the hay
+
+Would you stay night and day with the Gnu?
+
+
+
+
+
+
+`				ABOUT SCROLLING
+
+High-speed scrolling, Archy-style, is a change of pace from scrolling with other software. But in Archy, the motivation for scrolling changes. Since content is instantly accessible by Leaping, it's often the APPEARANCE of the text you're interested in, rather than content.
+
+For example, you might wonder -- how LONG is that chapter?
+
+And you might ask yourself -- what IS the average length of a paragraph in my essay?
+
+The answer: high-speed scrolling.
+
+And you might find yourself in a beautiful cafe, and you might ask yourself:
+
+How CAN I impress that attractive person sitting at the next table? Would something flashy happening on my computer screen pique their curiosity?
+
+High-speed scrolling -- with the text flowing by and the cursor zipping along -- might do the trick.
+
+If so, be sure to tell them about Archy. Share the coolness.
+
+
+
+
+
+
+Please do not read this sentence.
+
+
+%%keyboard position=300,-300
+%%script
+
+00.00	scroll	-5
+04.43	kb	355,130
+05.43	leapf	down
+05.76	l	press
+06.09	leapf	up
+07.09	kb	300,-300
+
+14.09	s	press
+14.29	a	press
+14.62	m	press
+14.82	p	press
+15.15	l	press
+15.35	e	press
+15.55	space	press
+
+19.20	leapf	down
+19.55	x	press
+19.88	leapf	up
+
+26.19	delete	press
+
+28.10	p	press
+28.30	i	press
+28.50	c	press
+28.83	a	press
+29.00	l	press
+29.33	space	press
+29.66	t	press
+30.00	y	press
+
+37.72	kb	355,130
+38.75	leapf	down
+40.02	.	press
+45.70	return	press
+46.00	leapf	up
+47.50	kb	300,-300
+
+61.01	kb	355,130
+62.23	leapf	down
+63.75	c	press
+67.40	a	press
+74.29	t	press
+75.00	leapf	up
+
+76.00	press len	.2
+
+78.72	command	down
+84.20	leapf	press
+90.63	leapf	press
+96.34	leapf	press
+97.14	leapf	press
+98.14	leapf	press
+101.63	leapb	press
+102.63	leapb	press
+103.63	leapb	press
+104.63	leapb	press
+105.63	leapb	press
+105.83	command	up
+
+107.17	leapf	down
+107.50	e	press
+107.80	leapf	up
+109.56	command	down
+110.92	leapf	press
+111.12	leapf	press
+111.45	leapf	press
+111.70	leapf	press
+112.20	leapf	press
+112.55	leapf	press
+112.90	leapf	press
+113.10	leapf	press
+113.40	leapf	press
+113.73	leapf	press
+114.10	leapf	press
+114.30	leapf	press
+114.60	leapf	press
+114.90	leapf	press
+115.20	leapb	press
+115.50	leapb	press
+115.70	leapb	press
+116.00	leapb	press
+116.30	leapb	press
+116.60	leapb	press
+116.90	leapb	press
+117.20	leapb	press
+117.50	leapb	press
+117.80	leapb	press
+118.10	leapb	press
+118.37	command	up
+119.37	kb	300,-300
+
+125.20	kb	355,130
+126.20	leapf	down
+126.50	return	press
+126.83	leapf	up
+
+130.00	press len	.2
+
+133.75	command	down
+137.09	leapf	press
+137.59	leapf	press
+137.99	leapf	press
+138.29	leapf	press
+138.59	leapf	press
+138.89	leapf	press
+139.19	leapf	press
+139.49	leapf	press
+139.89	leapf	press
+140.39	leapf	press
+140.99	leapf	press
+142.75	leapb	press
+143.35	leapb	press
+143.85	leapb	press
+144.25	leapb	press
+144.55	leapb	press
+144.85	leapb	press
+145.15	leapb	press
+145.50	leapb	press
+145.80	leapb	press
+146.10	leapb	press
+146.40	leapb	press
+
+165.50	leapf	press
+165.80	leapf	press
+
+165.95	leapf	press
+166.1	leapf	press
+166.25	leapf	press
+166.4	leapf	press
+166.55	leapf	press
+166.7	leapf	press
+166.85	leapf	press
+167.0	leapf	press
+167.15	leapf	press
+167.3	leapf	press
+167.45	leapf	press
+167.6	leapf	press
+167.75	leapf	press
+167.9	leapf	press
+168.05	leapf	press
+168.2	leapf	press
+168.35	leapf	press
+168.5	leapf	press
+168.65	leapf	press
+168.8	leapf	press
+168.95	leapf	press
+169.1	leapf	press
+169.25	leapf	press
+169.4	leapf	press
+169.55	leapf	press
+169.7	leapf	press
+169.85	leapf	press
+170.0	leapf	press
+170.15	leapf	press
+170.3	leapf	press
+170.45	leapf	press
+170.6	leapf	press
+170.75	leapf	press
+170.9	leapf	press
+171.05	leapf	press
+171.2	leapf	press
+171.35	leapf	press
+171.5	leapf	press
+171.65	leapf	press
+171.8	leapf	press
+171.95	leapf	press
+172.1	leapf	press
+172.25	leapf	press
+172.4	leapf	press
+172.55	leapf	press
+172.7	leapf	press
+172.85	leapf	press
+173.0	leapf	press
+173.15	leapf	press
+173.3	leapf	press
+173.45	leapf	press
+173.6	leapf	press
+173.75	leapf	press
+173.9	leapf	press
+174.05	leapf	press
+174.2	leapf	press
+174.35	leapf	press
+174.5	leapf	press
+174.65	leapf	press
+174.8	leapf	press
+174.95	leapf	press
+175.1	leapf	press
+175.25	leapf	press
+175.4	leapf	press
+175.55	leapf	press
+175.7	leapf	press
+175.85	leapf	press
+176.0	leapf	press
+176.15	leapf	press
+176.3	leapf	press
+176.45	leapf	press
+176.6	leapf	press
+176.75	leapf	press
+176.9	leapf	press
+177.05	leapf	press
+177.2	leapf	press
+177.35	leapf	press
+177.5	leapf	press
+177.65	leapf	press
+177.8	leapf	press
+177.95	leapf	press
+178.1	leapf	press
+178.25	leapf	press
+178.4	leapf	press
+178.55	leapf	press
+178.7	leapf	press
+178.85	leapf	press
+179.0	leapf	press
+179.15	leapf	press
+179.3	leapf	press
+179.45	leapf	press
+179.6	leapf	press
+179.75	leapf	press
+179.9	leapf	press
+180.05	leapf	press
+180.2	leapf	press
+180.35	leapf	press
+180.5	leapf	press
+180.65	leapf	press
+180.8	leapf	press
+180.95	leapf	press
+181.1	leapf	press
+181.25	leapf	press
+181.4	leapf	press
+181.55	leapf	press
+181.7	leapf	press
+181.85	leapf	press
+182.0	leapf	press
+182.15	leapf	press
+182.3	leapf	press
+182.45	leapf	press
+182.6	leapf	press
+182.75	leapf	press
+182.9	leapf	press
+183.05	leapf	press
+183.2	leapf	press
+183.35	leapf	press
+183.5	leapf	press
+183.65	leapf	press
+183.8	leapf	press
+183.95	leapf	press
+184.1	leapf	press
+184.25	leapf	press
+184.4	leapf	press
+
+184.89	leapb	press
+185.19	leapb	press
+
+185.64	leapb	press
+185.79	leapb	press
+185.94	leapb	press
+186.09	leapb	press
+186.24	leapb	press
+186.39	leapb	press
+186.54	leapb	press
+186.69	leapb	press
+186.84	leapb	press
+186.99	leapb	press
+187.14	leapb	press
+187.29	leapb	press
+187.44	leapb	press
+187.59	leapb	press
+187.74	leapb	press
+187.89	leapb	press
+188.04	leapb	press
+188.19	leapb	press
+188.34	leapb	press
+188.49	leapb	press
+188.64	leapb	press
+188.79	leapb	press
+188.94	leapb	press
+189.09	leapb	press
+189.24	leapb	press
+189.39	leapb	press
+189.54	leapb	press
+189.69	leapb	press
+189.84	leapb	press
+
+191.00	kb	300,-300
+
+205.50	end	meta

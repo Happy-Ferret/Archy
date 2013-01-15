@@ -1,0 +1,28 @@
+diff -cr SDL-1.2.8/src/video/wincommon/SDL_sysevents.c SDL-1.2.8-patched/src/video/wincommon/SDL_sysevents.c
+*** SDL-1.2.8/src/video/wincommon/SDL_sysevents.c	Mon Mar 28 09:52:58 2005
+--- SDL-1.2.8-patched/src/video/wincommon/SDL_sysevents.c	Mon Mar 28 09:28:19 2005
+***************
+*** 163,173 ****
+  		}
+  		if ( keyboard[VK_NUMLOCK] & 0x01) {
+  			state |= KMOD_NUM;
+! 			kstate[SDLK_NUMLOCK] = SDL_PRESSED;
+  		}
+  		if ( keyboard[VK_CAPITAL] & 0x01) {
+  			state |= KMOD_CAPS;
+! 			kstate[SDLK_CAPSLOCK] = SDL_PRESSED;
+  		}
+  	}
+  	SDL_SetModState(state);
+--- 163,173 ----
+  		}
+  		if ( keyboard[VK_NUMLOCK] & 0x01) {
+  			state |= KMOD_NUM;
+! 			//kstate[SDLK_NUMLOCK] = SDL_PRESSED;
+  		}
+  		if ( keyboard[VK_CAPITAL] & 0x01) {
+  			state |= KMOD_CAPS;
+! 			//kstate[SDLK_CAPSLOCK] = SDL_PRESSED;
+  		}
+  	}
+  	SDL_SetModState(state);

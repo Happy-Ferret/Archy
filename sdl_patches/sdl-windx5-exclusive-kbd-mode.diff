@@ -1,0 +1,79 @@
+diff -cr SDL-1.2.8/src/video/windx5/SDL_dx5events.c SDL-1.2.8-patched/src/video/windx5/SDL_dx5events.c
+*** SDL-1.2.8/src/video/windx5/SDL_dx5events.c	Sun Dec 12 23:54:00 2004
+--- SDL-1.2.8-patched/src/video/windx5/SDL_dx5events.c	Mon Mar 28 12:39:16 2005
+***************
+*** 126,133 ****
+  } inputs[] = {
+  	{ "keyboard",
+  		&GUID_SysKeyboard, &c_dfDIKeyboard,
+! 		(DISCL_FOREGROUND|DISCL_NONEXCLUSIVE),
+! 		(DISCL_FOREGROUND|DISCL_NONEXCLUSIVE), handle_keyboard },
+  	{ "mouse",
+  		&GUID_SysMouse, &c_dfDIMouse,
+  		(DISCL_FOREGROUND|DISCL_NONEXCLUSIVE),
+--- 126,134 ----
+  } inputs[] = {
+  	{ "keyboard",
+  		&GUID_SysKeyboard, &c_dfDIKeyboard,
+! 		(DISCL_FOREGROUND|DISCL_EXCLUSIVE),
+! 		(DISCL_FOREGROUND|DISCL_EXCLUSIVE), handle_keyboard },
+! 
+  	{ "mouse",
+  		&GUID_SysMouse, &c_dfDIMouse,
+  		(DISCL_FOREGROUND|DISCL_NONEXCLUSIVE),
+***************
+*** 144,151 ****
+  	HWND        topwnd;
+  
+  	/* Create the DirectInput object */
+! 	result = DInputCreate(SDL_Instance, DIRECTINPUT_VERSION,
+! 							&dinput, NULL);
+  	if ( result != DI_OK ) {
+  		SetDIerror("DirectInputCreate", result);
+  		return(-1);
+--- 145,152 ----
+  	HWND        topwnd;
+  
+  	/* Create the DirectInput object */
+! 	result = DirectInput8Create(SDL_Instance, DIRECTINPUT_VERSION, &IID_IDirectInput8, &dinput, NULL);
+! 
+  	if ( result != DI_OK ) {
+  		SetDIerror("DirectInputCreate", result);
+  		return(-1);
+***************
+*** 162,168 ****
+  			return(-1);
+  		}
+  		result = IDirectInputDevice_QueryInterface(device,
+! 			&IID_IDirectInputDevice2, (LPVOID *)&SDL_DIdev[i]);
+  		IDirectInputDevice_Release(device);
+  		if ( result != DI_OK ) {
+  			SetDIerror("DirectInputDevice::QueryInterface", result);
+--- 163,169 ----
+  			return(-1);
+  		}
+  		result = IDirectInputDevice_QueryInterface(device,
+! 			&IID_IDirectInputDevice8, (LPVOID *)&SDL_DIdev[i]);
+  		IDirectInputDevice_Release(device);
+  		if ( result != DI_OK ) {
+  			SetDIerror("DirectInputDevice::QueryInterface", result);
+diff -cr SDL-1.2.8/src/video/windx5/directx.h SDL-1.2.8-patched/src/video/windx5/directx.h
+*** SDL-1.2.8/src/video/windx5/directx.h	Fri Jan 18 09:14:00 2002
+--- SDL-1.2.8-patched/src/video/windx5/directx.h	Mon Mar 28 12:36:17 2005
+***************
+*** 71,77 ****
+  /* We need these defines to mark what version of DirectX API we use */
+  #define DIRECTDRAW_VERSION  0x0700
+  #define DIRECTSOUND_VERSION 0x0500
+! #define DIRECTINPUT_VERSION 0x0500
+  
+  #ifdef __GNUC__
+  #define NONAMELESSUNION
+--- 71,77 ----
+  /* We need these defines to mark what version of DirectX API we use */
+  #define DIRECTDRAW_VERSION  0x0700
+  #define DIRECTSOUND_VERSION 0x0500
+! #define DIRECTINPUT_VERSION 0x0800
+  
+  #ifdef __GNUC__
+  #define NONAMELESSUNION
